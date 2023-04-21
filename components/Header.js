@@ -37,7 +37,7 @@ const Header = () => {
           <div
             className={`items-center justify-between w-full md:flex md:w-auto md:order-1 ${isActive ? "hidden" : ""}`}
           >
-            <ul className="flex flex-col space-y-3 md:space-y-0 mt-4 p-4 md:p-0 bg-white md:bg-transparent rounded-md  md:flex-row md:space-x-8 md:mt-0 text-sm text-Scolor md:text-[#B8B8B8]">
+            <ul className="flex flex-col space-y-3 md:space-y-0 mt-4 p-4 md:p-0 bg-[#292929] md:bg-transparent rounded-md  md:flex-row md:space-x-8 md:mt-0 text-sm text-[#B8B8B8]">
               <li>
                 <Link className="cursor-pointer" activeClass="current-menu-item" to="work" spy={true} smooth={true} offset={-100} duration={500}>Work</Link>
               </li>
