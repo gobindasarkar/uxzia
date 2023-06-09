@@ -81,58 +81,58 @@ const AboutInfo = () => {
             <ul>
               <li className="grid grid-cols-1 md:grid-cols-2 text-base text-white">
                 <div className="flex justify-between items-center border-b border-[#3D3D3D]">
-                  <div className="px-6 py-4 text-[#B8B8B8] capitalize">
+                  <div className="px-6 py-6 text-[#B8B8B8] capitalize">
                     Name
                   </div>
-                  <div className="px-6 py-4">Md Zia Uddin</div>
+                  <div className="px-6 py-6">Md Zia Uddin</div>
                 </div>
                 <div className="flex justify-between items-center border-b border-[#3D3D3D]">
-                  <div className="px-6 py-4 text-[#B8B8B8] capitalize">
+                  <div className="px-6 py-6 text-[#B8B8B8] capitalize">
                     Address
                   </div>
-                  <div className="px-6 py-4">Muscat, Oman</div>
+                  <div className="px-6 py-6">Muscat, Oman</div>
                 </div>
               </li>
               <li className="grid grid-cols-1 md:grid-cols-2 text-base text-white">
                 <div className="flex justify-between items-center border-b border-[#3D3D3D]">
-                  <div className="px-6 py-4 text-[#B8B8B8] capitalize">
+                  <div className="px-6 py-6 text-[#B8B8B8] capitalize">
                     Profession
                   </div>
-                  <div className="px-6 py-4">UX Designer</div>
+                  <div className="px-6 py-6">UX Designer</div>
                 </div>
                 <div className="flex justify-between items-center border-b border-[#3D3D3D]">
-                  <div className="px-6 py-4 text-[#B8B8B8] capitalize">
+                  <div className="px-6 py-6 text-[#B8B8B8] capitalize">
                     Phone
                   </div>
-                  <div className="px-6 py-4">+1 523 5286 365</div>
+                  <div className="px-6 py-6">+1 523 5286 365</div>
                 </div>
               </li>
               <li className="grid grid-cols-1 md:grid-cols-2 text-base text-white">
                 <div className="flex justify-between items-center border-b border-[#3D3D3D]">
-                  <div className="px-6 py-4 text-[#B8B8B8] capitalize">
+                  <div className="px-6 py-6 text-[#B8B8B8] capitalize">
                     Date of birth
                   </div>
-                  <div className="px-6 py-4">6th November, 1995</div>
+                  <div className="px-6 py-6">6th November, 1995</div>
                 </div>
                 <div className="flex justify-between items-center border-b border-[#3D3D3D]">
-                  <div className="px-6 py-4 text-[#B8B8B8] capitalize">
+                  <div className="px-6 py-6 text-[#B8B8B8] capitalize">
                     Email
                   </div>
-                  <div className="px-6 py-4">ziaaflame@gmail.com</div>
+                  <div className="px-6 py-6">ziaaflame@gmail.com</div>
                 </div>
               </li>
               <li className="grid grid-cols-1 md:grid-cols-2 text-base text-white">
                 <div className="flex justify-between items-center border-b border-[#3D3D3D]">
-                  <div className="px-6 py-4 text-[#B8B8B8] capitalize">
+                  <div className="px-6 py-6 text-[#B8B8B8] capitalize">
                     Nationality
                   </div>
-                  <div className="px-6 py-4">Bangladeshi</div>
+                  <div className="px-6 py-6">Bangladeshi</div>
                 </div>
                 <div className="flex justify-between items-center border-b border-[#3D3D3D]">
-                  <div className="px-6 py-4 text-[#B8B8B8] capitalize">
+                  <div className="px-6 py-6 text-[#B8B8B8] capitalize">
                     Skype
                   </div>
-                  <div className="px-6 py-4">aflamezia</div>
+                  <div className="px-6 py-6">aflamezia</div>
                 </div>
               </li>
             </ul>

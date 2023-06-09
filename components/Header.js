@@ -35,7 +35,7 @@ const Header = () => {
             </button>
           </div>
           <div
-            className={`items-center justify-between w-full md:flex md:w-auto md:order-1 ${isActive ? "hidden" : ""}`}
+            className={`items-center justify-between w-full md:flex md:w-auto md:order-1 md:ml-auto md:mr-[30px] ${isActive ? "hidden" : ""}`}
           >
             <ul className="flex flex-col space-y-3 md:space-y-0 mt-4 p-4 md:p-0 bg-[#292929] md:bg-transparent rounded-md  md:flex-row md:space-x-8 md:mt-0 text-sm text-[#B8B8B8]">
               <li>

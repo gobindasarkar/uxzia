@@ -1,4 +1,5 @@
 import AboutArea from '@/components/AboutArea';
+import BlogArea from '@/components/BlogArea';
 import CallToAction from '@/components/CallToAction';
 import ContactArea from '@/components/ContactArea';
 import HeroBanner from '@/components/HeroBanner';
@@ -17,6 +18,7 @@ const Home = () => {
       <ServiceArea />
       <Testimonial />
       <CallToAction />
+      <BlogArea />
       <ContactArea />
     </>
   )

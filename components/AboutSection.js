@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const AboutSection = () => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
       <div className="relative">
         <Image
           className="object-cover w-[80%] h-full"

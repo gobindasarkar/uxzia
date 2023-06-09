@@ -1,7 +1,17 @@
 import Image from "next/image";
 import React from "react";
 import ContactShape from "../public/contact-shape-image.png";
-import { FaEnvelope, FaPhoneAlt, FaSkype, FaBehance, FaFacebookF, FaDribbble, FaInstagram, FaLinkedinIn, FaTwitter } from "react-icons/fa";
+import {
+  FaEnvelope,
+  FaPhoneAlt,
+  FaSkype,
+  FaBehance,
+  FaFacebookF,
+  FaDribbble,
+  FaInstagram,
+  FaLinkedinIn,
+  FaTwitter,
+} from "react-icons/fa";
 import ContactForm from "./ContactForm";
 const ContactArea = () => {
   return (
@@ -16,25 +26,85 @@ const ContactArea = () => {
               <Image className="mx-auto" src={ContactShape} alt="shape" />
             </div>
             <ul className="space-y-4">
-              <li className="flex gap-x-4 items-center text-base text-white"><FaEnvelope /> <span>contact@uxzia.com</span></li>
-              <li className="flex gap-x-4 items-center text-base text-white"><FaPhoneAlt /> <span>+968 253 253 63</span></li>
-              <li className="flex gap-x-4 items-center text-base text-white"><FaSkype /> <span>contact@uxzia.com</span></li>
+              <li className="flex gap-x-4 items-center text-base text-white">
+                <FaEnvelope /> <span>contact@uxzia.com</span>
+              </li>
+              <li className="flex gap-x-4 items-center text-base text-white">
+                <FaPhoneAlt /> <span>+968 253 253 63</span>
+              </li>
+              <li className="flex gap-x-4 items-center text-base text-white">
+                <FaSkype /> <span>contact@uxzia.com</span>
+              </li>
             </ul>
             <ul className="flex gap-x-4 mt-10">
-              <li><a className="flex items-center justify-center w-10 h-10 rounded-full border border-[#3D3D3D] text-white text-center" href="#" target="_blank"><FaBehance /></a></li>
-              <li><a className="flex items-center justify-center w-10 h-10 rounded-full border border-[#3D3D3D] text-white text-center" href="#" target="_blank"><FaFacebookF /></a></li>
-              <li><a className="flex items-center justify-center w-10 h-10 rounded-full border border-[#3D3D3D] text-white text-center" href="#" target="_blank"><FaDribbble /></a></li>
-              <li><a className="flex items-center justify-center w-10 h-10 rounded-full border border-[#3D3D3D] text-white text-center" href="#" target="_blank"><FaInstagram /></a></li>
-              <li><a className="flex items-center justify-center w-10 h-10 rounded-full border border-[#3D3D3D] text-white text-center" href="#" target="_blank"><FaLinkedinIn /></a></li>
-              <li><a className="flex items-center justify-center w-10 h-10 rounded-full border border-[#3D3D3D] text-white text-center" href="#" target="_blank"><FaTwitter /></a></li>
+              <li>
+                <a
+                  className="flex items-center justify-center w-10 h-10 rounded-full border border-[#3D3D3D] text-white text-center"
+                  href="#"
+                  target="_blank"
+                >
+                  <FaBehance />
+                </a>
+              </li>
+              <li>
+                <a
+                  className="flex items-center justify-center w-10 h-10 rounded-full border border-[#3D3D3D] text-white text-center"
+                  href="#"
+                  target="_blank"
+                >
+                  <FaFacebookF />
+                </a>
+              </li>
+              <li>
+                <a
+                  className="flex items-center justify-center w-10 h-10 rounded-full border border-[#3D3D3D] text-white text-center"
+                  href="#"
+                  target="_blank"
+                >
+                  <FaDribbble />
+                </a>
+              </li>
+              <li>
+                <a
+                  className="flex items-center justify-center w-10 h-10 rounded-full border border-[#3D3D3D] text-white text-center"
+                  href="#"
+                  target="_blank"
+                >
+                  <FaInstagram />
+                </a>
+              </li>
+              <li>
+                <a
+                  className="flex items-center justify-center w-10 h-10 rounded-full border border-[#3D3D3D] text-white text-center"
+                  href="#"
+                  target="_blank"
+                >
+                  <FaLinkedinIn />
+                </a>
+              </li>
+              <li>
+                <a
+                  className="flex items-center justify-center w-10 h-10 rounded-full border border-[#3D3D3D] text-white text-center"
+                  href="#"
+                  target="_blank"
+                >
+                  <FaTwitter />
+                </a>
+              </li>
             </ul>
           </div>
           <div className="w-full md:w-6/12 md:ml-auto">
-            <div className="mb-12">
-              <h2 className="text-4xl font-bold text-white mb-3">Let’s start a project...</h2>
-              <p className="text-base text-white">Connect with Me and Let s Create Something Amazing</p>
+            <div className="px-7 lg:px-[50px] py-12 lg:py-[80px] bg-[#000000]">
+              <div className="mb-12">
+                <h2 className="text-4xl font-bold text-white mb-3">
+                  Let’s start a project...
+                </h2>
+                <p className="text-base text-white">
+                  Connect with Me and Let s Create Something Amazing
+                </p>
+              </div>
+              <ContactForm />
             </div>
-            <ContactForm />
           </div>
         </div>
       </div>

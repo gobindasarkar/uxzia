@@ -6,7 +6,7 @@ import Link from "next/link";
 const CallToAction = () => {
   return (
     <div className="py-10 md:py-16">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-4 bg-[#000000]">
         <div className="flex flex-wrap md:flex-nowrap justify-center md:justify-start items-center gap-6">
           <div className="md:w-4/12">
             <Image

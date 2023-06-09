@@ -10,6 +10,7 @@ import {
   FaWhatsapp,
 } from "react-icons/fa";
 import Link from "next/link";
+import { TypeAnimation } from "react-type-animation";
 const HeroBannerBg = "hero-banner-bg.jpg";
 const HeroBanner = () => {
   return (
@@ -29,7 +30,16 @@ const HeroBanner = () => {
                 Expert in
               </h4>
               <h2 className="text-3xl sm:text-5xl font-bold text-white mb-10">
-                UX/UI Designer
+                
+                <TypeAnimation
+                  sequence={[
+                    "UX/UI Designer",
+                    1000,
+                    "Motion Designer",
+                    1000,
+                  ]}
+                  repeat={Infinity}
+                />
               </h2>
               <Link
                 className="min-w-[140px] px-4 h-[60px] inline-flex justify-center items-center border border-[#B8B8B8] text-center rounded-[40px] text-lg font-semibold capitalize text-white"
@@ -50,7 +60,7 @@ const HeroBanner = () => {
                 <a
                   href="#"
                   target="_blank"
-                  className="transition-all hover:text-white w-10 h-10 rounded-full flex items-center justify-center bg-white/20 text-[#CCCCCC] social-media-shadow"
+                  className="transition-all hover:text-white w-10 h-10 rounded-full flex items-center justify-center bg-white/20 text-[#CCCCCC] social-media-shadow hover:bg-[#075E54]"
                 >
                   <FaWhatsapp />
                 </a>
@@ -59,7 +69,7 @@ const HeroBanner = () => {
                 <a
                   href="#"
                   target="_blank"
-                  className="transition-all hover:text-white w-10 h-10 rounded-full flex items-center justify-center bg-white/20 text-[#CCCCCC] social-media-shadow"
+                  className="transition-all hover:text-white w-10 h-10 rounded-full flex items-center justify-center bg-white/20 text-[#CCCCCC] social-media-shadow hover:bg-[#d62976]"
                 >
                   <FaInstagram />
                 </a>
@@ -68,7 +78,7 @@ const HeroBanner = () => {
                 <a
                   href="#"
                   target="_blank"
-                  className="transition-all hover:text-white w-10 h-10 rounded-full flex items-center justify-center bg-white/20 text-[#CCCCCC] social-media-shadow"
+                  className="transition-all hover:text-white w-10 h-10 rounded-full flex items-center justify-center bg-white/20 text-[#CCCCCC] social-media-shadow hover:bg-[#053eff]"
                 >
                   <FaBehance />
                 </a>
@@ -77,7 +87,7 @@ const HeroBanner = () => {
                 <a
                   href="#"
                   target="_blank"
-                  className="transition-all hover:text-white w-10 h-10 rounded-full flex items-center justify-center bg-white/20 text-[#CCCCCC] social-media-shadow"
+                  className="transition-all hover:text-white w-10 h-10 rounded-full flex items-center justify-center bg-white/20 text-[#CCCCCC] social-media-shadow hover:bg-[#ea4c89]"
                 >
                   <FaDribbble />
                 </a>
@@ -86,7 +96,7 @@ const HeroBanner = () => {
                 <a
                   href="#"
                   target="_blank"
-                  className="transition-all hover:text-white w-10 h-10 rounded-full flex items-center justify-center bg-white/20 text-[#CCCCCC] social-media-shadow"
+                  className="transition-all hover:text-white w-10 h-10 rounded-full flex items-center justify-center bg-white/20 text-[#CCCCCC] social-media-shadow hover:bg-[#0072b1]"
                 >
                   <FaLinkedinIn />
                 </a>
@@ -95,7 +105,7 @@ const HeroBanner = () => {
                 <a
                   href="#"
                   target="_blank"
-                  className="transition-all hover:text-white w-10 h-10 rounded-full flex items-center justify-center bg-white/20 text-[#CCCCCC] social-media-shadow"
+                  className="transition-all hover:text-white w-10 h-10 rounded-full flex items-center justify-center bg-white/20 text-[#CCCCCC] social-media-shadow hover:bg-[#3b5998]"
                 >
                   <FaFacebookF />
                 </a>
