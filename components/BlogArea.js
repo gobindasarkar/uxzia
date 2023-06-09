@@ -4,9 +4,9 @@ import Link from "next/link";
 import Image from "next/image";
 import { FaCalendar, FaTags } from "react-icons/fa";
 import { FiArrowUpRight } from "react-icons/fi";
-const postThumb1 = "/../public/blog-image-1.jpg";
-const postThumb2 = "/../public/blog-image-2.jpg";
-const postThumb3 = "/../public/blog-image-3.jpg";
+import postThumb1 from "../public/blog-image-1.jpg";
+import postThumb2 from "../public/blog-image-2.jpg";
+import postThumb3 from "../public/blog-image-3.jpg";
 const PostData = [
   {
     id: 1,
